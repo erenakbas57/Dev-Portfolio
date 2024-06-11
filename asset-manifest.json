@@ -1,32 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a207b786.css",
-    "main.js": "/portfolio/static/js/main.3ca0fd1a.js",
-    "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
-    "static/media/python.png": "/portfolio/static/media/python.88d760de81b70b09494c.png",
-    "static/media/sql.png": "/portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
-    "static/media/Yapay_Zeka_ve_Algoritma.png": "/portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
-    "static/media/git.png": "/portfolio/static/media/git.587e8db4b7bc71dc6715.png",
-    "static/media/HTML5.png": "/portfolio/static/media/HTML5.5d6d5cc5f518df95961d.png",
-    "static/media/profile.png": "/portfolio/static/media/profile.8cc64497940de470d2d6.png",
-    "static/media/yapay_zekaya_ilk_adim.png": "/portfolio/static/media/yapay_zekaya_ilk_adim.073cfc1aece70da9fcb0.png",
-    "static/media/cs201.png": "/portfolio/static/media/cs201.52e143d5631488fb6adb.png",
-    "static/media/cs101.png": "/portfolio/static/media/cs101.376aeee9d101d800ccbd.png",
-    "static/media/intro_machine_learning.png": "/portfolio/static/media/intro_machine_learning.66642f6ac963b5de0004.png",
-    "static/media/intro_python1.png": "/portfolio/static/media/intro_python1.c94faad0a47b88e0088e.png",
-    "static/media/ai_akbank_bootcamp.png": "/portfolio/static/media/ai_akbank_bootcamp.e3802f21cffc3135836d.png",
-    "static/media/solong.png": "/portfolio/static/media/solong.d53a662e4b5969fdd741.png",
-    "static/media/minishell.png": "/portfolio/static/media/minishell.e76360a24e2d7bb9ce13.png",
-    "static/media/c.jpg": "/portfolio/static/media/c.bc0acd4e890d16a20b1d.jpg",
-    "static/media/cub3d.png": "/portfolio/static/media/cub3d.c37f816411bc11487c44.png",
-    "static/media/kihmed.png": "/portfolio/static/media/kihmed.03d0ff4ad11b37653e26.png",
+    "main.css": "/portfolio/static/css/main.b5acc6e0.css",
+    "main.js": "/portfolio/static/js/main.7482d2da.js",
+    "static/media/profile.png": "/portfolio/static/media/profile.0b755483dbc67fccdeb8.png",
     "index.html": "/portfolio/index.html",
-    "main.a207b786.css.map": "/portfolio/static/css/main.a207b786.css.map",
-    "main.3ca0fd1a.js.map": "/portfolio/static/js/main.3ca0fd1a.js.map",
-    "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.b5acc6e0.css.map": "/portfolio/static/css/main.b5acc6e0.css.map",
+    "main.7482d2da.js.map": "/portfolio/static/js/main.7482d2da.js.map"
   },
   "entrypoints": [
-    "static/css/main.a207b786.css",
-    "static/js/main.3ca0fd1a.js"
+    "static/css/main.b5acc6e0.css",
+    "static/js/main.7482d2da.js"
   ]
 }
