@@ -22,28 +22,28 @@ function Navbar({ setActiveComponent, activeComponent }) {
         </li>
         <li className="navbar-item">
           <button
-            className={`navbar-link ${activeComponent === "portfolio" ? "active" : ""}`}
-            onClick={() => setActiveComponent("portfolio")}
+            className={`navbar-link ${activeComponent === "certificate" ? "active" : ""}`}
+            onClick={() => setActiveComponent("certificate")}
           >
-            Portfolio
+            Sertifikalar
           </button>
         </li>
         <li className="navbar-item">
           <button
-            className={`navbar-link ${activeComponent === "blog" ? "active" : ""}`}
-            onClick={() => setActiveComponent("blog")}
+            className={`navbar-link ${activeComponent === "project" ? "active" : ""}`}
+            onClick={() => setActiveComponent("project")}
           >
-            Blog
+            Projeler
           </button>
         </li>
-        <li className="navbar-item">
+        {/* <li className="navbar-item">
           <button
             className={`navbar-link ${activeComponent === "contact" ? "active" : ""}`}
             onClick={() => setActiveComponent("contact")}
           >
             Contact
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

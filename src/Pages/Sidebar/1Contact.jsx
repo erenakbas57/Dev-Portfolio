@@ -3,9 +3,11 @@ import '../../index.css';
 
 function Contact({item}) {
     return (
-        <li className="contact-item">
+      <li className="contact-item">
         <div className="contact-logo">
-          {item.icon}
+          <div>
+            {item.icon}
+          </div>
         </div>
         <div className="contact-info">
           <p className="contact-title">{item.title}</p>

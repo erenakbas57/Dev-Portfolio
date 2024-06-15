@@ -1,15 +1,17 @@
+
+
 const education = [
     {
         school: "Ecole42",
-        degree: "Yazılım Geliştirme",
+        department: "Yazılım Geliştirme",
         date: "2022 - 2024",
-        desc: "42 is a private, nonprofit and tuition-free computer programming school created and funded by French billionaire Xavier Niel (founder of the telecommunication company Illiad) with several partners including Nicolas"
+        desc: "C ile başladığım eğitimimde projeler geliştirdim ve C++ ile projelere devam ettim. Şuan Ekip projemiz olan 'çok oyunculu ping-pong websitesi' uygulamasını geliştiriyorum."
     },
     {
         school: "Dumlupınar Üniversitesi",
-        degree: "Yazılım Geliştirme",
+        department: "Bilgisayar Programcılığı",
         date: "2020 - 2023",
-        desc: "deneme"
+        desc: "C# kursu aldım ve bu kurs sayesinde yazılım geliştirme konusunda kendimi geliştirdim. 'Kütüphane Otomasyon' uygulamasını bu kurstan öğrendiklerim ile geliştirdim."
     },
   ]
 

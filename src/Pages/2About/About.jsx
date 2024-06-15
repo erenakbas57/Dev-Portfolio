@@ -1,12 +1,12 @@
 // About.js
 import React from "react";
-import Testimonial from "./1Testimonial";
 import Service from "./1Service";
 import Text from "./1Text";
+import Skill from "../2About/1Skill";
 
 import text from "../../Data/Text";
 import service from '../../Data/Service';
-
+import skill from '../../Data/Skill';
 
 function About() {
   return (
@@ -19,10 +19,6 @@ function About() {
           <Text key={index} item={item} />
         ))}
       </section>
-
-      {/*
-        - service
-      */}
       <section className="service">
         <h3 className="h3 service-title">Neler Yapıyorum?</h3>
         <ul className="service-list">
@@ -32,46 +28,12 @@ function About() {
           ))}
         </ul>
       </section>
-
-      <Testimonial />
-
-      {/*
-    - clients
-  */}
-
-      <section className="clients">
-        <h3 className="h3 clients-title">Müşteriler</h3>
-        <ul className="clients-list has-scrollbar">
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-1-color.png" alt="client logo" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-2-color.png" alt="client logo" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-3-color.png" alt="client logo" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-4-color.png" alt="client logo" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-5-color.png" alt="client logo" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="a">
-              <img src="./assets/images/logo-6-color.png" alt="client logo" />
-            </a>
-          </li>
+      <section className="skill">
+        <h3 className="h3 skills-title">Yetenekler</h3>
+        <ul className="skills-list content-card">
+          {skill.map((item, index) => (
+            <Skill  item={item}/>
+          ))}
         </ul>
       </section>
     </article>

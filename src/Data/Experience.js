@@ -1,15 +1,17 @@
 const experience = [
     {
       title: 'Badi Etkinlik',
-      year: '2023 Sep - Present',
+      position: 'Veri Analisti',
+      year: '2023 Eylül - Halen',
       description:
-        'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.'
+        'Yapılan etkinlik verilerinin işlenmesi ve düzenlenmesi ile ilgileniyorum. Etkinlik katılımlarından alınan dönüşleri analiz edip bunlara uygun etkinliklerin yapılmasını planlıyorum. Website ve uygulamaların geliştirilmesi konularında destek sağlayıp kendimi geliştiriyorum.'
     },
     {
       title: 'FLO Mağazacılık',
-      year: '2023',
+      position: 'Intern',
+      year: '2023 Ağustos - 2023 Eylül',
       description:
-        'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.'
+        'Yaptığım stajda şirketin farklı departmanları ile toplantılara girip departmanların işleyişi, birbirleri ile olan ilişkileri hakkında bilgi sahibi oldum.'
     }
   ]
 

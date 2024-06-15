@@ -1,41 +1,29 @@
-import { MdEmail, MdLocalPhone, MdLocationOn   } from "react-icons/md";
-import { FaCalendar, FaCarAlt, } from "react-icons/fa";
+import {  MdLocationOn   } from "react-icons/md";
+import { FaCalendar, FaCarAlt } from "react-icons/fa";
 import { GiPistolGun  } from "react-icons/gi";
+
 
 const contact = [
     {
-      title: 'Email',
-      value: 'erenakbas057@gmail.com',
-      link: 'mailto:erenakbas057@gmail.com',
-      icon: <MdEmail/>
-    },  
-  
-    {
-      title: 'İletişim',
-      value: '+905379234261',
-      link: 'tel:+905379234261',
-      icon: <MdLocalPhone />
-    },
-    {
       title: 'Doğum Tarihi',
-      value: 'November 2, 2001',
+      value: '2 Kasım 2001',
       dateTime: '2001-11-02',
-      icon: <FaCalendar  />
+      icon: <FaCalendar  size={25}/>
     },
     {
       title: 'Adres',
       value: 'Gaziosmanpasa, Istanbul',
-      icon: <MdLocationOn />
+      icon: <MdLocationOn size={25}/>
     },
     {
       title: 'Ehliyet',
       value: 'B1',
-      icon: <FaCarAlt />
+      icon: <FaCarAlt size={25}/>
     },
     {
       title: 'Askerlik',
       value: '2030',
-      icon: <GiPistolGun />
+      icon: <GiPistolGun size={25}/>
     }
   ];
 
