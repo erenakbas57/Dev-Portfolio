@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.518d648d.css",
-    "main.js": "/Portfolio/static/js/main.584a23ce.js",
+    "main.css": "/Portfolio/static/css/main.8f664b85.css",
+    "main.js": "/Portfolio/static/js/main.461eae66.js",
     "static/media/python.png": "/Portfolio/static/media/python.88d760de81b70b09494c.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
     "static/media/Yapay_Zeka_ve_Algoritma.png": "/Portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
@@ -19,11 +19,11 @@
     "static/media/cub3d.png": "/Portfolio/static/media/cub3d.c37f816411bc11487c44.png",
     "static/media/kihmed.png": "/Portfolio/static/media/kihmed.03d0ff4ad11b37653e26.png",
     "index.html": "/Portfolio/index.html",
-    "main.518d648d.css.map": "/Portfolio/static/css/main.518d648d.css.map",
-    "main.584a23ce.js.map": "/Portfolio/static/js/main.584a23ce.js.map"
+    "main.8f664b85.css.map": "/Portfolio/static/css/main.8f664b85.css.map",
+    "main.461eae66.js.map": "/Portfolio/static/js/main.461eae66.js.map"
   },
   "entrypoints": [
-    "static/css/main.518d648d.css",
-    "static/js/main.584a23ce.js"
+    "static/css/main.8f664b85.css",
+    "static/js/main.461eae66.js"
   ]
 }
