@@ -21,16 +21,16 @@ const socialMedia = [
       icon: <FaLinkedin size={40} color="#ffdb70"/>
     },
     {
-      name: 'logo-mail',
-      type: 'email',
-      link: 'erenakbas057@gmail.com',
-      icon: <MdEmail size={40} color="#ffdb70"/>
-    },
-    {
       name: 'logo-phone',
       type: 'phone',
       link: '05379234261',
       icon: <MdLocalPhone size={40} color="#ffdb70"/>
+    },
+    {
+      name: 'logo-mail',
+      type: 'email',
+      link: 'erenakbas057@gmail.com',
+      icon: <MdEmail size={40} color="#ffdb70"/>
     },
     {
       name: 'logo-instagram',

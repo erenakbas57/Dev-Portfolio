@@ -1,23 +1,19 @@
 import React, { useState } from 'react';
 import Copy from './1Copy';
 
-function Social({ item }) {
-  const [showTooltip, setShowTooltip] = useState(false);
-
+function Social({ item, isActive, onClick }) {
   const handleClick = (e) => {
     e.preventDefault();
-    setShowTooltip(!showTooltip);
+    onClick();
   };
 
   if (item.type === 'phone' || item.type === 'email') {
     return (
       <li className="social-item" style={{ position: 'relative' }}>
         <a href="#" className="social-link" onClick={handleClick}>
-        {item.icon}
+          {item.icon}
         </a>
-        {showTooltip && (
-          <Copy item={item}/>
-        )}
+        {isActive && <Copy item={item} />}
       </li>
     );
   }

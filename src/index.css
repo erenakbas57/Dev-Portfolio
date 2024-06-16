@@ -260,8 +260,8 @@ article.active {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 30px;
-  height: 3px;
+  width: 200px;
+  height: 5px;
   background: var(--text-gradient-yellow);
   border-radius: 3px;
 }
@@ -985,10 +985,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-bottom: 15px;
   }
 
-  .article-title::after {
-    width: 40px;
-    height: 5px;
-  }
 
   .icon-box {
     width: 48px;

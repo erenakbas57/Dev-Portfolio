@@ -11,9 +11,18 @@ import Profile from '../../Data/Profile';
 
 function Sidebar() {
   const [isActive, setIsActive] = useState(false);
+  const [activeSocialIndex, setActiveSocialIndex] = useState(null); // Hangi social item'in açık olduğunu tutacak state
 
   const toggleSidebar = () => {
     setIsActive(!isActive);
+  };
+
+  const handleSocialClick = (index) => {
+    if (activeSocialIndex === index) {
+      setActiveSocialIndex(null); // Aynı social item tekrar tıklandıysa kapat
+    } else {
+      setActiveSocialIndex(index); // Yeni bir social item tıklandıysa aç
+    }
   };
 
   return (
@@ -22,18 +31,22 @@ function Sidebar() {
       <div className="sidebar-info_more">
         <div className="separator" />
         <ul className="contacts-list">
-        {contact.map((item, index) => (
+          {contact.map((item, index) => (
             <Contact key={index} item={item} />
-            ))}
+          ))}
         </ul>
         <div className="separator" />
         <ul className="social-list">
-        {socialMedia.map((item, index) => (
-            <Social key={index} item={item} />
-            ))}
+          {socialMedia.map((item, index) => (
+            <Social
+              key={index}
+              item={item}
+              isActive={activeSocialIndex === index}
+              onClick={() => handleSocialClick(index)}
+            />
+          ))}
         </ul>
       </div>
-      
     </aside>
   );
 }
