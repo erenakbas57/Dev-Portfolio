@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9b03b255.css",
-    "main.js": "/Portfolio/static/js/main.904afb34.js",
+    "main.css": "/Portfolio/static/css/main.87e05ee4.css",
+    "main.js": "/Portfolio/static/js/main.4e748bb8.js",
     "static/media/python.png": "/Portfolio/static/media/python.88d760de81b70b09494c.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
     "static/media/Yapay_Zeka_ve_Algoritma.png": "/Portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
     "static/media/git.png": "/Portfolio/static/media/git.587e8db4b7bc71dc6715.png",
     "static/media/HTML5.png": "/Portfolio/static/media/HTML5.5d6d5cc5f518df95961d.png",
-    "static/media/profile.png": "/Portfolio/static/media/profile.0b755483dbc67fccdeb8.png",
     "static/media/yapay_zekaya_ilk_adim.png": "/Portfolio/static/media/yapay_zekaya_ilk_adim.073cfc1aece70da9fcb0.png",
     "static/media/cs201.png": "/Portfolio/static/media/cs201.52e143d5631488fb6adb.png",
     "static/media/cs101.png": "/Portfolio/static/media/cs101.376aeee9d101d800ccbd.png",
@@ -15,15 +14,15 @@
     "static/media/intro_python1.png": "/Portfolio/static/media/intro_python1.c94faad0a47b88e0088e.png",
     "static/media/ai_akbank_bootcamp.png": "/Portfolio/static/media/ai_akbank_bootcamp.e3802f21cffc3135836d.png",
     "static/media/minishell.png": "/Portfolio/static/media/minishell.e76360a24e2d7bb9ce13.png",
-    "static/media/c.jpg": "/Portfolio/static/media/c.bc0acd4e890d16a20b1d.jpg",
+    "static/media/profile.png": "/Portfolio/static/media/profile.869b0888c1fe070f6edb.png",
     "static/media/cub3d.png": "/Portfolio/static/media/cub3d.c37f816411bc11487c44.png",
     "static/media/kihmed.png": "/Portfolio/static/media/kihmed.03d0ff4ad11b37653e26.png",
     "index.html": "/Portfolio/index.html",
-    "main.9b03b255.css.map": "/Portfolio/static/css/main.9b03b255.css.map",
-    "main.904afb34.js.map": "/Portfolio/static/js/main.904afb34.js.map"
+    "main.87e05ee4.css.map": "/Portfolio/static/css/main.87e05ee4.css.map",
+    "main.4e748bb8.js.map": "/Portfolio/static/js/main.4e748bb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b03b255.css",
-    "static/js/main.904afb34.js"
+    "static/css/main.87e05ee4.css",
+    "static/js/main.4e748bb8.js"
   ]
 }
