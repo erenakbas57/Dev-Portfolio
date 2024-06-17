@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Copy from './1Copy';
+import './1social.css';
 
 function Social({ item, isActive, onClick }) {
   const handleClick = (e) => {
@@ -10,7 +11,7 @@ function Social({ item, isActive, onClick }) {
   if (item.type === 'phone' || item.type === 'email') {
     return (
       <li className="social-item" style={{ position: 'relative' }}>
-        <a href="#" className="social-link" onClick={handleClick}>
+        <a href="0" className="social-link" onClick={handleClick}>
           {item.icon}
         </a>
         {isActive && <Copy item={item} />}

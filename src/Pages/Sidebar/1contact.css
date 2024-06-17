@@ -1,0 +1,106 @@
+.contacts-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+
+
+.contact-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-logo {
+    color: var(--vegas-gold);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    /* Flexbox kullanarak içeriği ortalamak için eklenmiştir */
+    justify-content: center;
+    /* Yatayda ortala */
+    align-items: center;
+    /* Dikeyde ortala */
+    border-radius: 8px;
+    border: 3px solid var(--vegas-gold);
+}
+
+.contact-title {
+    color: var(--light-gray-70);
+    font-size: var(--fs-7);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.contact-info .contact-link {
+    padding-bottom: 5px;
+    color: var(--white-2);
+    font-size: var(--fs-8);
+}
+
+
+.contact-logo {
+    border: 2px solid var(--vegas-gold);
+    position: relative;
+    background: var(--border-gradient-onyx);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--orange-yellow-crayola);
+    box-shadow: var(--shadow-1);
+    z-index: 1;
+  
+  }
+
+
+@media (min-width: 200px) {
+    .contacts-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center; /* Yatayda ortala */
+        align-items: center; /* Dikeyde ortala */
+        gap: 15px;
+        padding: 0px 15px;
+      }
+
+}
+
+
+@media (min-width: 580px) {
+    .contacts-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center; /* Yatayda ortala */
+        align-items: center; /* Dikeyde ortala */
+        gap: 15px;
+        padding: 0px 15px;
+      }
+
+}
+
+
+@media (min-width: 768px) {
+    .contacts-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center; /* Yatayda ortala */
+        align-items: center; /* Dikeyde ortala */
+        gap: 15px;
+        padding: 0px 15px;
+      }
+
+}
+
+
+@media (min-width: 1250px) {
+    .contacts-list { 
+        grid-template-columns: 1fr;
+      }
+
+}

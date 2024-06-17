@@ -8,8 +8,10 @@
 }
 
 .projects-item {
+    padding:20px;
     display: flex;
-    background: var(--border-gradient-onyx); 
+    flex-direction: column;
+    /* background: var(--border-gradient-onyx);  */
     border-radius: 16px;
     border: 3px solid var(--orange-yellow-crayola);
     cursor: pointer;
@@ -21,6 +23,7 @@
 }
 
 .projects-avatar-box {
+    
     display: flex;
     gap:15px;
     justify-content: start;

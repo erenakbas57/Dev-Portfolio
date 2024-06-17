@@ -1,5 +1,5 @@
 import React from "react";
-import '../../index.css';
+import './1info.css';
 
 import { MdMoreHoriz } from "react-icons/md";
 

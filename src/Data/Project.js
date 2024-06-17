@@ -1,25 +1,24 @@
 import Minishell from '../assets/images/projects/minishell.png';
 import Library from '../assets/images/projects/kihmed.png';
 import Cub3d from '../assets/images/projects/cub3d.png';
-import C_Photo from '../assets/images/projects/c.jpg';
 
 import { SiCsharp, SiCplusplus, SiC, SiFlutter, SiFirebase, SiDotnet, SiGnubash, SiMysql } from "react-icons/si";
 import { IoGameController } from "react-icons/io5";
 import { FaHtml5, FaCss3, FaJs} from "react-icons/fa6";
 
 const icons = {
-    Html5: <FaHtml5 size={24} color="#ffdb70" />,
-    Css3: <FaCss3 size={24} color="#ffdb70" />,
-    Js: <FaJs size={24} color="#ffdb70" />,
-    Csharp: <SiCsharp size={24} color="#ffdb70" />,
-    Cplusplus: <SiCplusplus size={24} color="#ffdb70" />,
-    C: <SiC size={24} color="#ffdb70" />,
-    Flutter: <SiFlutter size={24} color="#ffdb70" />,
-    Firebase: <SiFirebase size={24} color="#ffdb70" />,
-    Dotnet: <SiDotnet size={24} color="#ffdb70" />,
-    Bash: <SiGnubash size={24} color="#ffdb70" />,
-    Sql: <SiMysql size={24} color="#ffdb70" />,
-    Game: <IoGameController size={24} color="#ffdb70" />
+    Html5: <FaHtml5 size={40} color="#ffdb70" />,
+    Css3: <FaCss3 size={40} color="#ffdb70" />,
+    Js: <FaJs size={40} color="#ffdb70" />,
+    Csharp: <SiCsharp size={40} color="#ffdb70" />,
+    Cplusplus: <SiCplusplus size={40} color="#ffdb70" />,
+    C: <SiC size={40} color="#ffdb70" />,
+    Flutter: <SiFlutter size={40} color="#ffdb70" />,
+    Firebase: <SiFirebase size={40} color="#ffdb70" />,
+    Dotnet: <SiDotnet size={40} color="#ffdb70" />,
+    Bash: <SiGnubash size={40} color="#ffdb70" />,
+    Sql: <SiMysql size={40} color="#ffdb70" />,
+    Game: <IoGameController size={40} color="#ffdb70" />
 };
 
 const project = [

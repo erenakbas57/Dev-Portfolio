@@ -10,7 +10,7 @@ import skill from '../../Data/Skill';
 
 function About() {
   return (
-    <article className="about  active" data-page="about">
+    <article className="about active" data-page="about">
       <header>
         <h2 className="h2 article-title">Hakkımda</h2>
       </header>

@@ -1,0 +1,25 @@
+
+.social-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+  }
+  
+  .social-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .social-link {
+    color: var(--light-gray-70);
+    font-size: 18px;
+  }
+  
+  .social-link:hover {
+    color: var(--light-gray);
+  }

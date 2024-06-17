@@ -1,5 +1,7 @@
 import React from "react"; 
 import {icons} from "../../Data/Skill";
+import './1skill.css';
+
 
 function Skill({item}) {
     return (

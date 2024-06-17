@@ -1,6 +1,6 @@
 import React from "react";
 import {icons} from "../../Data/Service";
-
+import './1service.css';
 
 function Service({ item }) {
   return (

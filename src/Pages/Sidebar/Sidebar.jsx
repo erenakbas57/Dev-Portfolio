@@ -9,9 +9,11 @@ import contact from '../../Data/Contact';
 import socialMedia from '../../Data/Social';
 import Profile from '../../Data/Profile';
 
+
+
 function Sidebar() {
   const [isActive, setIsActive] = useState(false);
-  const [activeSocialIndex, setActiveSocialIndex] = useState(null); // Hangi social item'in açık olduğunu tutacak state
+  const [activeSocialIndex, setActiveSocialIndex] = useState(null);
 
   const toggleSidebar = () => {
     setIsActive(!isActive);

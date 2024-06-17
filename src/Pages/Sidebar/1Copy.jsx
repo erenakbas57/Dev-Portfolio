@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './copy.css';
+import './1copy.css';
 import { FiCopy } from "react-icons/fi";
 
 function Copy({ item }) {

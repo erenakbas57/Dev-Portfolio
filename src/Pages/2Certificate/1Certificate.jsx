@@ -9,7 +9,7 @@ function Certificate({ item }) {
           <img src={item.photo} alt="finance" loading="lazy" />
         </figure>
         <h3 className="certificate-title">{item.name}</h3>
-        <p className="certificate-category">Web development</p>
+        <p className="certificate-category">{item.category}</p>
       </a>
     </li>
   );
