@@ -8,9 +8,8 @@ function Social({ item, isActive, onClick }) {
   const handleClick = (e) => {
     e.preventDefault();
     onClick();
-    setCopied(true);
     try {
-      navigator.clipboard.writeText("erenakbas");
+      navigator.clipboard.writeText(item.link);
       setCopied(true);
       setTimeout(() => {
       setCopied(false);
