@@ -7,7 +7,7 @@ function Contact({Profile, toggleSidebar}) {
     return (
         <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={Profile.image} alt={Profile.image} width={80} />
+          <img src={Profile.image} alt={Profile.image} className="avatar-img"/>
         </figure>
         <div className="info-content">
           <h1 className="name" title={Profile.name}>

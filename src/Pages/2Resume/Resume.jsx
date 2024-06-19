@@ -2,6 +2,7 @@
 import React from "react";
 import Experience from "./1Experience";
 import Education from "./1Education";
+import './resume.css';
 
 import { FaGraduationCap } from "react-icons/fa6";
 import { MdWork } from "react-icons/md";

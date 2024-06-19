@@ -12,7 +12,7 @@ function Social({ item, isActive, onClick }) {
     return (
       <li className="social-item" style={{ position: 'relative' }}>
         <a href="0" className="social-link" onClick={handleClick}>
-          {item.icon}
+          <img src={item.icon}></img>
         </a>
         {isActive && <Copy item={item} />}
       </li>
@@ -22,7 +22,7 @@ function Social({ item, isActive, onClick }) {
   return (
     <li className="social-item">
       <a href={item.link} className="social-link" target="_blank" rel="noopener noreferrer">
-        {item.icon}
+        <img src={item.icon}></img>
       </a>
     </li>
   );

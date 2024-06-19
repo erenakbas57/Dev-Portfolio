@@ -1,42 +1,46 @@
-import { FaInstagram, FaGithub, FaMedium, FaLinkedin  } from "react-icons/fa";
-import { MdEmail, MdLocalPhone } from "react-icons/md";
+import Github from '../assets/icons/GitHub.png';
+import Medium from '../assets/icons/Medium.png';
+import LinkedIn from '../assets/icons/Linkedin.png';
+import Phone from '../assets/icons/Phone.png';
+import Gmail from '../assets/icons/Gmail.png';
+import Instagram from '../assets/icons/Instagram.png';
 
 const socialMedia = [
     {
       name: 'logo-github',
       type: 'github',
       link: 'https://github.com/erenakbas57',
-      icon: <FaGithub size={40} color="#ffdb70"/>
+      icon: Github
     },
     {
       name: 'logo-medium',
       type: 'medium',
       link: 'https://medium.com/@erenakbas',
-      icon: <FaMedium size={40} color="#ffdb70"/>
+      icon: Medium
     },
     {
       name: 'logo-linkedin',
       type: 'linkedin',
       link: 'https://linkedin.com/in/erenakbas',
-      icon: <FaLinkedin size={40} color="#ffdb70"/>
+      icon: LinkedIn
     },
     {
       name: 'logo-phone',
       type: 'phone',
       link: '05379234261',
-      icon: <MdLocalPhone size={40} color="#ffdb70"/>
+      icon: Phone
     },
     {
       name: 'logo-mail',
       type: 'email',
       link: 'erenakbas057@gmail.com',
-      icon: <MdEmail size={40} color="#ffdb70"/>
+      icon: Gmail
     },
     {
       name: 'logo-instagram',
       type: 'instagram',
       link: 'https://instagram.com/erenakbas057',
-      icon: <FaInstagram size={40} color="#ffdb70"/>
+      icon: Instagram
     }
   ];
 

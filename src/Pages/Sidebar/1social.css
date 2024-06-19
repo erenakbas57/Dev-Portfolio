@@ -20,6 +20,11 @@
     font-size: 18px;
   }
   
+  .social-link img {
+    width: 75px;
+    height: 75px;
+  }
+
   .social-link:hover {
     color: var(--light-gray);
   }

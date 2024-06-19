@@ -28,7 +28,7 @@ function Sidebar() {
   };
 
   return (
-    <aside className={`sidebar ${isActive ? 'active' : ''}`} data-sidebar="">
+    <aside className={`sidebar ${isActive ? 'active' : ''}`}>
       <Info Profile={Profile} toggleSidebar={toggleSidebar} />
       <div className="sidebar-info_more">
         <div className="separator" />

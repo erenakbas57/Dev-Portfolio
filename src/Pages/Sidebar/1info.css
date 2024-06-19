@@ -1,5 +1,4 @@
-.sidebar,
-article {
+.sidebar, article {
     background: var(--eerie-black-2);
     border: 1px solid var(--jet);
     border-radius: 20px;
@@ -7,8 +6,6 @@ article {
     box-shadow: var(--shadow-1);
     z-index: 1;
 }
-
-
 
 .sidebar {
     margin-bottom: 15px;
@@ -33,13 +30,9 @@ article {
     border-radius: 20px;
     border: 3px solid var(--vegas-gold);
     overflow: hidden;
-    /* Taşmayı engelle */
     width: 150px;
-    /* Container genişliği */
     height: 150px;
-    /* Container yüksekliği */
     box-sizing: border-box;
-    /* Kenarlıkları hesaba kat */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,12 +111,16 @@ article {
         max-height: 700px;
     }
 
+    .avatar-box {
+        width: 80px;
+        height: 80px;
+    
+    }
+
 }
 
 @media (min-width: 580px) {
-
-    .sidebar,
-    article {
+    .sidebar, article {
         width: 520px;
         margin-inline: auto;
         padding: 30px;
@@ -146,28 +143,13 @@ article {
         border-radius: 20px;
         border: 3px solid var(--vegas-gold);
         overflow: hidden;
-        /* Taşmayı engelle */
         width: 120px;
-        /* Container genişliği */
         height: 120px;
-        /* Container yüksekliği */
         box-sizing: border-box;
-        /* Kenarlıkları hesaba kat */
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .avatar-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: fill;
-        /* Görüntüyü container içine sığdır */
-        border-radius: 15px;
-        /* Kenarları yuvarla */
-    }
-
-
 
     .info-content .name {
         margin-bottom: 15px;
@@ -184,13 +166,9 @@ article {
         display: flex;
         align-items: center;
         gap: 8px;
-        /* Boşluk miktarını istediğiniz gibi ayarlayabilirsiniz */
         border: 3px solid var(--bg-gradient-onyx);
-        /* Butonun varsayılan sınırını kaldırmak için */
         background: var(--bg-gradient-onyx);
-        /* Butonun varsayılan arka planını kaldırmak için */
         cursor: pointer;
-        /* Fare imlecini el işaretine değiştirmek için */
     }
 
     .info_more-btn span {
@@ -212,13 +190,13 @@ article {
     .sidebar, article {
         width: 950px;
         box-shadow: var(--shadow-5);
-      }
+    }
 }
 
 @media (min-width: 1250px) { 
     .sidebar, article { width: auto; }
-    
-  .sidebar {
+
+    .sidebar {
     position: sticky;
     top: 60px;
     max-height: 1500px;
