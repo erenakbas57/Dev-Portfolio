@@ -1,18 +1,12 @@
-import React, { useState } from 'react';
-
-
+import React, {useState} from 'react';
 import Info from './1Info';
 import Contact from './1Contact';
 import Social from './1Social';
-
 import contact from '../../Data/Contact';
 import socialMedia from '../../Data/Social';
 import Profile from '../../Data/Profile';
 
-
-
-function Sidebar() {
-  const [isActive, setIsActive] = useState(false);
+function Sidebar({ isActive, setIsActive }) {
   const [activeSocialIndex, setActiveSocialIndex] = useState(null);
 
   const toggleSidebar = () => {
@@ -43,7 +37,6 @@ function Sidebar() {
             <Social
               key={index}
               item={item}
-              isActive={activeSocialIndex === index}
               onClick={() => handleSocialClick(index)}
             />
           ))}
