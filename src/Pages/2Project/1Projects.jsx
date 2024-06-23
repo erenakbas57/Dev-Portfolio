@@ -58,7 +58,6 @@ function Projects() {
             className="projects-item"
             onClick={() => openModal(project)}
           >
-            {/* <div className="content-card" data-projects-item=""> */}
               <figure className="projects-avatar-box">
                 {project.tech.map((iconName, index) => (
                   <span key={index}>{icons[iconName]}</span>
@@ -71,7 +70,6 @@ function Projects() {
               <div className="project-detail-info">
                 <p>Detaylar ve uygulama bağlantısı için tıklayın</p>
               </div>
-            {/* </div> */}
           </li>
         ))}
       </ul>

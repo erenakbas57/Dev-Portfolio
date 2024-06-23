@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://erenakbas57.github.io/Portfolio",
@@ -19,6 +19,8 @@
     "react-bootstrap": "^2.10.2",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.4",
+    "react-flip-toolkit": "^7.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",

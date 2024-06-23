@@ -263,7 +263,7 @@ article.active {
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
 
-.content-card {
+/* .content-card {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 15px;
@@ -281,7 +281,7 @@ article.active {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
-}
+} */
 
 
 

@@ -17,11 +17,6 @@
     cursor: pointer;
 }
 
-.content-card {
-    display: flex;
-    flex-direction: column;
-}
-
 .projects-avatar-box {
     
     display: flex;

@@ -21,7 +21,7 @@ const service = [
     },
     {
         name: 'Flutter',
-        description: "UI/UX tasarımları geliştirip Firebase veritabanı kullanarak ile uygulama geliştirmekteyim.",
+        description: "UI/UX tasarımları geliştirip Firebase veritabanı ile projeler geliştirmekteyim.",
         icon: ['SiFlutter', 'SiFirebase'],
     },
     {

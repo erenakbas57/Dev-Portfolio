@@ -18,15 +18,7 @@
   align-items: center;
 }
 
-.social-item-h {
-  position: relative;
-  list-style: none; /* Listenin işaretlerini kaldırın */
-  width: 75px; /* İkon genişliği */
-  height: 75px; /* İkon yüksekliği */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .social-link {
   color: var(--light-gray-70);
@@ -38,15 +30,7 @@
   height: 100%;
 }
 
-.social-link-h {
-  color: var(--light-gray-70);
-  font-size: 18px;
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-}
+
 
 .social-link img {
   display: block;
@@ -55,12 +39,7 @@
   transition: transform 0.3s ease; /* Dönme efekti için geçiş efekti */
 }
 
-.social-link-h img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease; /* Dönme efekti için geçiş efekti */
-}
+
 
 .social-back {
   border-radius: 15px;
@@ -95,15 +74,86 @@
 }
 
 
-.social-item-h:hover .social-back {
-  transform: rotateY(0deg); /* Dönme efektini tersine çevir */
+
+.social-item-h {
+  position: relative;
+  list-style: none; 
+  width: 75px; 
+  height: 75px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-link-h:hover {
-  color: var(--light-gray);
+
+
+.flip-card {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  perspective: 1000px;
 }
 
-.social-link-h:hover img {
-  transform: rotateY(180deg); /* Y ekseni etrafında 180 derece dönme */
-  visibility: hidden;
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.flip-card-front img {
+  width: 72px;
+  height:  72px;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #2980b9;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  border-radius: 15px; /* Border radius for the back */
+}
+
+.flip-card-back.copied {
+  background-color: #419b45; /* Green background when copied */
+}
+
+
+.card-button {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Border radius for the button */
 }

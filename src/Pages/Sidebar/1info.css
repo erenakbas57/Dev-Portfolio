@@ -116,6 +116,10 @@
         height: 80px;
     
     }
+    
+    .name {
+        font-size: var(--fs-5);
+    }
 
 }
 
