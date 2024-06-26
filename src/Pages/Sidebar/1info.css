@@ -1,4 +1,5 @@
-.sidebar, article {
+.sidebar,
+article {
     background: var(--eerie-black-2);
     border: 1px solid var(--jet);
     border-radius: 20px;
@@ -36,6 +37,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+
+.avatar-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .info-content .name {
@@ -114,9 +122,9 @@
     .avatar-box {
         width: 80px;
         height: 80px;
-    
+
     }
-    
+
     .name {
         font-size: var(--fs-5);
     }
@@ -124,7 +132,9 @@
 }
 
 @media (min-width: 580px) {
-    .sidebar, article {
+
+    .sidebar,
+    article {
         width: 520px;
         margin-inline: auto;
         padding: 30px;
@@ -186,47 +196,65 @@
     }
 }
 
-@media (min-width: 768px) { 
-    .sidebar, article { width: 700px; }
+@media (min-width: 768px) {
+
+    .sidebar,
+    article {
+        width: 700px;
+    }
 }
 
-@media (min-width: 1024px) { 
-    .sidebar, article {
+@media (min-width: 1024px) {
+
+    .sidebar,
+    article {
         width: 950px;
         box-shadow: var(--shadow-5);
     }
 }
 
-@media (min-width: 1250px) { 
-    .sidebar, article { width: auto; }
+@media (min-width: 1250px) {
+
+    .sidebar,
+    article {
+        width: auto;
+    }
 
     .sidebar {
-    position: sticky;
-    top: 60px;
-    max-height: 1500px;
-    height: 100%;
-    margin-bottom: 0;
-    padding-top: 60px;
-    z-index: 1;
-  }
+        position: sticky;
+        top: 60px;
+        max-height: 1500px;
+        height: 100%;
+        margin-bottom: 0;
+        padding-top: 60px;
+        z-index: 1;
+    }
 
-  .sidebar.active { max-height: 1500px; }
+    .sidebar.active {
+        max-height: 1500px;
+    }
 
-  .sidebar-info { flex-direction: column; }
+    .sidebar-info {
+        flex-direction: column;
+    }
 
-  .avatar-box img { width: 150px; }
 
-  .info-content .name {
-    white-space: nowrap;
-    text-align: center;
-  }
 
-  .info-content .title { margin: auto; }
+    .info-content .name {
+        white-space: nowrap;
+        text-align: center;
+    }
 
-  .info_more-btn { display: none; }
+    .info-content .title {
+        margin: auto;
+    }
 
-  .sidebar-info_more {
-    opacity: 1;
-    visibility: visible;
-  }
+    .info_more-btn {
+        display: none;
+    }
+
+    .sidebar-info_more {
+        opacity: 1;
+        visibility: visible;
+    }
 }

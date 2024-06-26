@@ -9,7 +9,8 @@
     width: 100%;
     background: hsla(240, 1%, 17%, 0.75);
     backdrop-filter: blur(10px);
-    border: 1px solid var(--jet);
+    border-left: 3px solid var(--orange-yellow-crayola);
+    border-bottom: 3px solid var(--orange-yellow-crayola);
     border-radius: 12px 12px 0 0;
     box-shadow: var(--shadow-2);
     z-index: 5;

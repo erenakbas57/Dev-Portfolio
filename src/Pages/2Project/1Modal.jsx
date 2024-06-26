@@ -48,7 +48,7 @@ function Modal({ active, data, onClose }) {
               rel="noopener noreferrer"
               className="github-button"
             >
-              <GrGithub size={20} />
+              <GrGithub size={25} />
               GitHub'da Görüntüle
             </a>
           </div>

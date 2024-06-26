@@ -57,9 +57,9 @@
 }
 
 .projects-modal {
-    background: #222223;
+    background: #363636;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 18px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     max-width: 600px;
@@ -132,6 +132,7 @@
 }
 
 .project-image img {
+    border: 3px solid var(--orange-yellow-crayola);
     width: 70%;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -144,9 +145,10 @@
 }
 
 .github-button {
+    gap:15px;
     display: flex;
     align-items: center;
-    background: #333;
+    background: #242424;
     color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
@@ -154,9 +156,5 @@
 }
 
 .github-button:hover {
-    background: #444;
-}
-
-.github-button svg {
-    margin-right: 10px;
+    background: #555;
 }

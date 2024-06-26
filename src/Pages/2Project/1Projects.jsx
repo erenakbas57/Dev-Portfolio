@@ -62,6 +62,9 @@ function Projects() {
                 {project.tech.map((iconName, index) => (
                   <span key={index}>{icons[iconName]}</span>
                 ))}
+  {/* {project.tech.map((iconName, index) => (
+    <img key={index} src={icons[iconName]} alt={iconName} />
+  ))} */}
               </figure>
               <h4 className="projects-item-title">{project.name}</h4>
               <div className="projects-text">

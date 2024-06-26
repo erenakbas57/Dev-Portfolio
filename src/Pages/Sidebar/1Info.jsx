@@ -6,9 +6,9 @@ import { MdMoreHoriz } from "react-icons/md";
 function Contact({Profile, toggleSidebar}) {
     return (
         <div className="sidebar-info">
-        <figure className="avatar-box">
+        <div className="avatar-box">
           <img src={Profile.image} alt={Profile.image} className="avatar-img"/>
-        </figure>
+        </div>
         <div className="info-content">
           <h1 className="name" title={Profile.name}>
             {Profile.name}

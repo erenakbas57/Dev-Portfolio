@@ -6,12 +6,19 @@ import Project from '../2Project/Project';
 import Contact from '../2Contact/Contact';
 import Navbar from '../Navbar/Navbar';
 
+import { useSocialContext } from '../../SocialContext';
+
 function Home({ setIsSidebarActive }) {
   const [activeComponent, setActiveComponent] = useState("about");
 
+  const { setIsEmailFlipped } = useSocialContext();
+  const { setIsPhoneFlipped } = useSocialContext();
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [activeComponent]);
+    setIsEmailFlipped(false); // activeComponent değişince kartı ön yüze çevir
+    setIsPhoneFlipped(false); // activeComponent değişince kartı ön yüze çevir
+  }, [activeComponent, setIsEmailFlipped, setIsPhoneFlipped]);
 
   const renderComponent = () => {
     switch (activeComponent) {
