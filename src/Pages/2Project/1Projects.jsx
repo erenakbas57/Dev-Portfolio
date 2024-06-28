@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./1Modal";
 import project from "../../Data/Project";
-import { icons } from "../../Data/Project";
+import { skillsImage } from "../../Data/SkillImage";
 
 import "./1project.css";
 
@@ -60,7 +60,7 @@ function Projects() {
           >
               <figure className="projects-avatar-box">
                 {project.tech.map((iconName, index) => (
-                  <span key={index}>{icons[iconName]}</span>
+                  <img src={skillsImage(iconName)} alt={project} key={index} />
                 ))}
   {/* {project.tech.map((iconName, index) => (
     <img key={index} src={icons[iconName]} alt={iconName} />

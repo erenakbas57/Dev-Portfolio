@@ -1,49 +1,66 @@
-
-.skills-title { margin-bottom: 20px; }
-
-.skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
-
-.skill .title-wrapper {
+/* SkillsCarousel.css */
+.skills-container {
   display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
-}
-
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
-
-.skill-progress-bg {
-  background: var(--jet);
+  overflow: hidden;
+  white-space: nowrap;
   width: 100%;
-  height: 8px;
-  border-radius: 10px;
+  position: relative;
 }
 
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
+.skills-content {
+  gap: 10px;
+  display: flex;
+  animation: scroll 17s linear infinite;
 }
 
-
-
-@media (min-width: 580px) {
-    .skills-item:not(:last-child) { margin-bottom: 25px; }
+.skill-box {
+  width: 100px;
+  height: 100px; /* Yüksekliği arttırdık */
+  margin: 10px;
+  background-color: #262831;
+  border-radius: 15px;
+  display: flex;
+  padding: 7px 10px 7px 10px;
+  flex-direction: column; /* Dikey yerleşim için */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Metni ortalar */
+  transition: transform 0.3s ease-in-out; /* Hover efekti için */
 }
 
+.skill-box img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  margin-bottom: 5px; 
+}
 
+.skill-box:hover {
+  transform: scale(1.1); 
+}
 
+.skill-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
 
+.skills-container:hover .skills-content {
+  animation-play-state: paused;
+}
 
+.skill-box:hover,
+.skill-box:active {
+  transform: scale(1.2); 
+  border: 3px solid var(--vegas-gold); 
+  cursor: pointer;
+}
 
-
-
-
-
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

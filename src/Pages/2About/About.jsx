@@ -2,11 +2,12 @@
 import React from "react";
 import Service from "./1Service";
 import Text from "./1Text";
-import Skill from "../2About/1Skill";
+// import Skill from "../2About/1Skill";
+
+import SkillsCarousel from "../2About/1Skill";
 
 import text from "../../Data/Text";
-import service from '../../Data/Service';
-import skill from '../../Data/Skill';
+import service from "../../Data/Service";
 
 function About() {
   return (
@@ -24,17 +25,14 @@ function About() {
         <ul className="service-list">
           {service.map((item, index) => (
             <Service key={index} item={item} />
-          
           ))}
         </ul>
       </section>
       <section className="skill">
         <h3 className="h3 skills-title">Yetenekler</h3>
-        <ul className="skills-list content-card">
-          {skill.map((item, index) => (
-            <Skill  item={item}/>
-          ))}
-        </ul>
+        <div>
+          <SkillsCarousel />
+        </div>
       </section>
     </article>
   );

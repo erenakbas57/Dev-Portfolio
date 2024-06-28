@@ -2,18 +2,6 @@ import Minishell from '../assets/images/projects/minishell.png';
 import Library from '../assets/images/projects/kihmed.png';
 import Cub3d from '../assets/images/projects/cub3d.png';
 
-import {  SiC, SiCplusplus, SiCsharp, SiDotnet   } from "react-icons/si";
-import { BsFillTerminalFill } from "react-icons/bs";
-import { IoGameController } from "react-icons/io5";
-
-const icons = {
-    C: <SiC size={32} color='#6295cc'/>,
-    CSharp: <SiCsharp size={32} color='#9669cf'/>,
-    Bash: <BsFillTerminalFill size={40} color='#f0f0f0'/>,
-    DotNet: <SiDotnet size={48} color='white'/>,
-    Game: <IoGameController size={40} color='#28A745'/>,
-    CPlusPlus: <SiCplusplus size={32} color='#6295cc'/>,
-};
 
 const project = [
     {
@@ -38,7 +26,7 @@ const project = [
       photo: Library,
       category: 'C#',
       text: 'C# dilinde geliştirilen bu proje, kapsamlı bir kütüphane ve market yönetim sistemidir. Proje, kütüphane işlemleri, üyelik yönetimi ve market satışlarının entegre bir şekilde yönetilmesini sağlar. Kullanıcı dostu arayüzü ile kullanıcıların ihtiyaçlarına yönelik kapsamlı çözümler sunar.',
-      tech: ['CSharp', 'DotNet', 'Sql'],
+      tech: ['C#', '.Net Framework', 'MySql'],
       property: ['Üyelik Sistemi: Üye ekleme, çıkarma, güncelleme ve silme işlemleri',
         'Kütüphane Yönetimi: Kitap rafları ekleme, kitap ekleme, güncelleme ve silme işlemleri',
         'Ödünç Alma Sistemi: Kitapların ödünç alınması ve iade edilmesi süreçleri',
@@ -74,4 +62,3 @@ const project = [
   ]
 
   export default project;
-  export { icons };

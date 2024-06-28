@@ -1,7 +1,10 @@
+.service {
+  margin-bottom: 35px;
+}
 
-.service { margin-bottom: 35px; }
-
-.service-title { margin-bottom: 20px; }
+.service-title {
+  margin-bottom: 20px;
+}
 
 .service-list {
   display: grid;
@@ -9,114 +12,100 @@
   gap: 20px;
 }
 
-.service-icon-box { 
-  margin-bottom: 10px; 
-  display: flex; 
-  justify-content: center;
-}
-
-.service-icon-box img { 
-  margin: auto; 
-}
-
 .icon-row {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
+  align-items: flex-start;
+}
+
+.icon-row img {
+  width: 70px;
+  height: 70px;
+  padding: 3px;
 }
 
 .service-item {
- position: relative;
- border: 1px solid var(--vegas-gold);
- background: var(--vegas-gold);
- padding: 20px;
- border-radius: 25px;
- box-shadow: var(--shadow-2);
- z-index: 1;
+  position: relative;
+  border: 1px solid var(--vegas-gold);
+  background: var(--vegas-gold);
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
 }
 
 .service-item::before {
- content: "";
- position: absolute;
- inset: 1px;
- background: var(--bg-gradient-jet);
- border-radius: inherit;
- z-index: -1;
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
 }
 
 .container {
- display: flex;
- flex-direction: column;
- align-items: flex-start; /* Öğeleri dikey olarak üstten hizalar */
-}
-
-.icon-row {
- display: flex;
- align-items: flex-start; /* İkonların da üstten hizalanmasını sağlar */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Öğeleri dikey olarak üstten hizalar */
 }
 
 .service-content-box {
- display: flex;
- flex-direction: column;
- align-items: flex-start; /* Hizalama kutusunun içeriğini de üstten hizalar */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  display: block;
 }
 
-.service-content-box { 
- text-align: center; 
- display: block;
- flex-direction: column;
- align-items: start;
-}
 
-.service-item-title { 
- margin-bottom: 7px; 
- text-align: left; 
+.service-item-title {
+  margin-bottom: 7px;
+  text-align: left;
 }
 
 .service-item-text {
- color: var(--light-gray);
- font-size: var(--fs-6);
- font-weight: var(--fw-3);
- line-height: 1.6;
- text-align: left; 
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+  text-align: left;
 }
 
 
 @media (min-width: 580px) {
 
-    .service-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 18px;
-        padding: 30px;
-      }
-    
-      .icon-row {
-        display: flex;
-        justify-content: center; /* Fotoğrafları yatay olarak ortalar */
-        align-items: center; /* Fotoğrafları dikey olarak ortalar */
-        flex-wrap: wrap;
-        gap: 25px; /* İsteğe bağlı: Elemanlar arasındaki boşluk */
-        margin-bottom: 10px;
-      }
-      
-      .service-icon-box {
-        margin-bottom: 0;
-        margin-top: 5px;
-      }
-    
-      .service-content-box { text-align: center; }
-    
-    
+  .service-item {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding: 30px;
+  }
+
+  .icon-row {
+    display: flex;
+    justify-content: center;
+    /* Fotoğrafları yatay olarak ortalar */
+    align-items: center;
+    /* Fotoğrafları dikey olarak ortalar */
+    flex-wrap: wrap;
+    gap: 25px;
+    /* İsteğe bağlı: Elemanlar arasındaki boşluk */
+    margin-bottom: 10px;
+  }
+
+  .service-content-box {
+    text-align: center;
+  }
 
 }
 
 
 @media (min-width: 1024px) {
-    .service-list {
-        grid-template-columns: 1fr 1fr;
-        gap: 20px 25px;
-      }
+  .service-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 25px;
+  }
 
 }

@@ -1,24 +1,25 @@
-import React from "react"; 
-import {icons} from "../../Data/Skill";
 import './1skill.css';
+import { skillsImage } from "../../Data/SkillImage";
+import { skillsData } from "../../Data/Skill";
+
+import React from 'react';
 
 
-function Skill({item}) {
-    return (
-        <li className="skills-item">
-        <div className="title-wrapper">
-        {item.icon.map((iconName, index) => (
-            <span>{icons[iconName]}</span>
-          ))}
-          <h5 className="h5">{item.name}</h5>
-          <data value={item.value}>{item.value}%</data>
+function SkillsCarousel() {
+  const repeatedSkillsData = [...skillsData, ...skillsData];
 
-        </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress-fill" style={{ width: `${item.value}%` }} />
-        </div>
-      </li>
-    );
-}
+  return (
+    <div className="skills-container">
+      <div className="skills-content">
+        {repeatedSkillsData.map((item, index) => (
+          <div className="skill-box" key={index}>
+            <img src={skillsImage(item)} alt={item} />
+            <div className="skill-name">{item}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default Skill;
+export default SkillsCarousel;
