@@ -78,7 +78,7 @@ import netframework from '../assets/skills/netframework.png';
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
-      case '.net framework':
+      case '.net':
         return netframework;
       case 'adobe audition':
         return adobeaudition;

@@ -1,6 +1,10 @@
+import badi from '../assets/career/badi.png';
+import flo from '../assets/career/flo.png';
+
 const experience = [
     {
       title: 'Badi Etkinlik',
+      image: badi,
       position: 'Veri Analisti',
       year: '2023 Eylül - Halen',
       description:
@@ -8,6 +12,7 @@ const experience = [
     },
     {
       title: 'FLO Mağazacılık',
+      image: flo,
       position: 'Intern',
       year: '2023 Ağustos - 2023 Eylül',
       description:

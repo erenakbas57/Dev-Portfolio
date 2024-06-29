@@ -14,7 +14,7 @@ function SkillsCarousel() {
         {repeatedSkillsData.map((item, index) => (
           <div className="skill-box" key={index}>
             <img src={skillsImage(item)} alt={item} />
-            <div className="skill-name">{item}</div>
+            <p className="skill-name">{item}</p>
           </div>
         ))}
       </div>

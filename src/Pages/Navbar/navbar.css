@@ -9,8 +9,6 @@
     width: 100%;
     background: hsla(240, 1%, 17%, 0.75);
     backdrop-filter: blur(10px);
-    border-left: 3px solid var(--orange-yellow-crayola);
-    border-bottom: 3px solid var(--orange-yellow-crayola);
     border-radius: 12px 12px 0 0;
     box-shadow: var(--shadow-2);
     z-index: 5;
@@ -47,7 +45,10 @@
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+  .navbar { 
+    border-radius: 20px 20px 0 0;
+    border-top: 3px solid var(--orange-yellow-crayola);
+  }
 
   .navbar-link { 
     font-weight: var(--fw-600); 
@@ -64,6 +65,9 @@
     top: 0;
     left: auto;
     right: 0;
+    border-left: 3px solid var(--orange-yellow-crayola);
+    border-bottom: 3px solid var(--orange-yellow-crayola);
+    border-top: 0px;
     width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;

@@ -27,7 +27,7 @@
 
 .service-item {
   position: relative;
-  border: 1px solid var(--vegas-gold);
+  border: 3px solid var(--vegas-gold);
   background: var(--vegas-gold);
   padding: 20px;
   border-radius: 25px;

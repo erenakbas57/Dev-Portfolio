@@ -19,9 +19,29 @@
 }
 
 .timeline-item {
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
+.item-header {
+    padding-left: 10px;
+    display: flex;
+    gap: 30px; /* Fotoğraf ve bilgi grubu arasındaki boşluk */
+    margin-bottom: 10px;
+  }
+
+  .item-image {
+    width: 70px; /* Fotoğrafın genişliği */
+    height: 70px; /* Fotoğrafın yüksekliği */
+    object-fit: cover; /* Fotoğrafın içeriğini kutuya sığdır */
+    border-radius: 10px; /* Köşeleri yuvarlatma */
+  }
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Grupların dikeyde ortalanması */
+  }
 .timeline-item:not(:last-child) {
     margin-bottom: 20px;
 }

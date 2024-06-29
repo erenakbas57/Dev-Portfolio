@@ -12,7 +12,7 @@ const service = [
     {
         name: 'Masaüstü Programlama',
         description: "C# .Net Framework ile eğitimime devam etmekteyim. Bu eğitimde katmanlı mimari, EF6 ve tasarım desenleri ve birçok ileri düzey konular hakkında proje örnekleri yaparak deneyim kazanmaktayım.",
-        icon: ['C#', '.Net Framework'],
+        icon: ['C#', '.Net'],
     }
 ]
 

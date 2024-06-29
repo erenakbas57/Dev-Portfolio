@@ -14,6 +14,7 @@
 }
 
 .skill-box {
+  word-break: break-word; /* Metin taşmasını önlemek için */
   width: 100px;
   height: 100px; /* Yüksekliği arttırdık */
   margin: 10px;
@@ -22,10 +23,13 @@
   display: flex;
   padding: 7px 10px 7px 10px;
   flex-direction: column; /* Dikey yerleşim için */
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   text-align: center; /* Metni ortalar */
   transition: transform 0.3s ease-in-out; /* Hover efekti için */
+  overflow-wrap: break-word; /* Ekledik */
+  word-wrap: break-word; /* Ekledik */
+  white-space: normal; /* Ekledik */
 }
 
 .skill-box img {

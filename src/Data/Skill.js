@@ -6,7 +6,7 @@ const skillsData = [
   'C',
   'C++',
   'C#',
-  '.Net Framework',
+  '.Net',
   'HTML',
   'CSS',
   'Bootstrap',
