@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e1d849ab.css",
-    "main.js": "/Portfolio/static/js/main.f82f3b6a.js",
+    "main.css": "/Portfolio/static/css/main.d1955679.css",
+    "main.js": "/Portfolio/static/js/main.59a11fce.js",
     "static/media/python.png": "/Portfolio/static/media/python.88d760de81b70b09494c.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
     "static/media/Yapay_Zeka_ve_Algoritma.png": "/Portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
@@ -10,6 +10,7 @@
     "static/media/Instagram.png": "/Portfolio/static/media/Instagram.9c33b735af50f1ecca4d.png",
     "static/media/GitHub.png": "/Portfolio/static/media/GitHub.93cab583945605654f08.png",
     "static/media/Gmail.png": "/Portfolio/static/media/Gmail.579cd64f6960247ba4df.png",
+    "static/media/dpu.png": "/Portfolio/static/media/dpu.e162516009643c8fc2ee.png",
     "static/media/Medium.png": "/Portfolio/static/media/Medium.4625151931df56986f08.png",
     "static/media/yapay_zekaya_ilk_adim.png": "/Portfolio/static/media/yapay_zekaya_ilk_adim.073cfc1aece70da9fcb0.png",
     "static/media/cs201.png": "/Portfolio/static/media/cs201.52e143d5631488fb6adb.png",
@@ -20,10 +21,12 @@
     "static/media/minishell.png": "/Portfolio/static/media/minishell.e76360a24e2d7bb9ce13.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.869b0888c1fe070f6edb.png",
     "static/media/netframework.png": "/Portfolio/static/media/netframework.2d320e2e5e29f6844d29.png",
+    "static/media/flo.png": "/Portfolio/static/media/flo.8207705a094b7355997a.png",
     "static/media/cub3d.png": "/Portfolio/static/media/cub3d.c37f816411bc11487c44.png",
     "static/media/kihmed.png": "/Portfolio/static/media/kihmed.03d0ff4ad11b37653e26.png",
     "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.c0a82b96c88307e19fd1.png",
     "static/media/Phone.png": "/Portfolio/static/media/Phone.7af575212c2af57f3ae0.png",
+    "static/media/badi.png": "/Portfolio/static/media/badi.f23d1b4395506b17d6a7.png",
     "static/media/deno.svg": "/Portfolio/static/media/deno.04aa2c4dc756e5c4e0b671aed1a69491.svg",
     "static/media/postgresql.svg": "/Portfolio/static/media/postgresql.f0f3d0b9f02ed22418fc182be982a49c.svg",
     "static/media/ruby.svg": "/Portfolio/static/media/ruby.775cc228863c290a34668762dc1b1ac1.svg",
@@ -99,11 +102,11 @@
     "static/media/vue.svg": "/Portfolio/static/media/vue.5f5d16894e0a3def9502734973eb8eb5.svg",
     "static/media/vuetifyjs.svg": "/Portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/Portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
-    "main.e1d849ab.css.map": "/Portfolio/static/css/main.e1d849ab.css.map",
-    "main.f82f3b6a.js.map": "/Portfolio/static/js/main.f82f3b6a.js.map"
+    "main.d1955679.css.map": "/Portfolio/static/css/main.d1955679.css.map",
+    "main.59a11fce.js.map": "/Portfolio/static/js/main.59a11fce.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1d849ab.css",
-    "static/js/main.f82f3b6a.js"
+    "static/css/main.d1955679.css",
+    "static/js/main.59a11fce.js"
   ]
 }
