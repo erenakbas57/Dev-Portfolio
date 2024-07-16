@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d1955679.css",
-    "main.js": "/Portfolio/static/js/main.59a11fce.js",
+    "main.css": "/Portfolio/static/css/main.228a7028.css",
+    "main.js": "/Portfolio/static/js/main.c7a9205a.js",
     "static/media/python.png": "/Portfolio/static/media/python.88d760de81b70b09494c.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
     "static/media/Yapay_Zeka_ve_Algoritma.png": "/Portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
@@ -18,15 +18,18 @@
     "static/media/intro_machine_learning.png": "/Portfolio/static/media/intro_machine_learning.66642f6ac963b5de0004.png",
     "static/media/intro_python1.png": "/Portfolio/static/media/intro_python1.c94faad0a47b88e0088e.png",
     "static/media/ai_akbank_bootcamp.png": "/Portfolio/static/media/ai_akbank_bootcamp.e3802f21cffc3135836d.png",
+    "static/media/solong.png": "/Portfolio/static/media/solong.d53a662e4b5969fdd741.png",
     "static/media/minishell.png": "/Portfolio/static/media/minishell.e76360a24e2d7bb9ce13.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.869b0888c1fe070f6edb.png",
+    "static/media/shell.png": "/Portfolio/static/media/shell.28cb33d7659f79f26514.png",
+    "static/media/t3.png": "/Portfolio/static/media/t3.9ae1ce515a92b3478156.png",
     "static/media/netframework.png": "/Portfolio/static/media/netframework.2d320e2e5e29f6844d29.png",
     "static/media/flo.png": "/Portfolio/static/media/flo.8207705a094b7355997a.png",
     "static/media/cub3d.png": "/Portfolio/static/media/cub3d.c37f816411bc11487c44.png",
     "static/media/kihmed.png": "/Portfolio/static/media/kihmed.03d0ff4ad11b37653e26.png",
+    "static/media/game.png": "/Portfolio/static/media/game.c459b79afba3e59d0ecd.png",
     "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.c0a82b96c88307e19fd1.png",
-    "static/media/Phone.png": "/Portfolio/static/media/Phone.7af575212c2af57f3ae0.png",
-    "static/media/badi.png": "/Portfolio/static/media/badi.f23d1b4395506b17d6a7.png",
+    "static/media/badib.png": "/Portfolio/static/media/badib.8300f97942aae37ce4bd.png",
     "static/media/deno.svg": "/Portfolio/static/media/deno.04aa2c4dc756e5c4e0b671aed1a69491.svg",
     "static/media/postgresql.svg": "/Portfolio/static/media/postgresql.f0f3d0b9f02ed22418fc182be982a49c.svg",
     "static/media/ruby.svg": "/Portfolio/static/media/ruby.775cc228863c290a34668762dc1b1ac1.svg",
@@ -102,11 +105,11 @@
     "static/media/vue.svg": "/Portfolio/static/media/vue.5f5d16894e0a3def9502734973eb8eb5.svg",
     "static/media/vuetifyjs.svg": "/Portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/Portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
-    "main.d1955679.css.map": "/Portfolio/static/css/main.d1955679.css.map",
-    "main.59a11fce.js.map": "/Portfolio/static/js/main.59a11fce.js.map"
+    "main.228a7028.css.map": "/Portfolio/static/css/main.228a7028.css.map",
+    "main.c7a9205a.js.map": "/Portfolio/static/js/main.c7a9205a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1955679.css",
-    "static/js/main.59a11fce.js"
+    "static/css/main.228a7028.css",
+    "static/js/main.c7a9205a.js"
   ]
 }
