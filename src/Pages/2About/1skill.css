@@ -10,26 +10,26 @@
 .skills-content {
   gap: 10px;
   display: flex;
-  animation: scroll 17s linear infinite;
+  animation: scroll 15s linear infinite;
 }
 
 .skill-box {
-  word-break: break-word; /* Metin taşmasını önlemek için */
+  word-break: break-word; 
   width: 100px;
-  height: 100px; /* Yüksekliği arttırdık */
+  height: 100px;
   margin: 10px;
   background-color: #262831;
   border-radius: 15px;
   display: flex;
   padding: 7px 10px 7px 10px;
-  flex-direction: column; /* Dikey yerleşim için */
+  flex-direction: column; 
   justify-content: start;
   align-items: center;
-  text-align: center; /* Metni ortalar */
-  transition: transform 0.3s ease-in-out; /* Hover efekti için */
-  overflow-wrap: break-word; /* Ekledik */
-  word-wrap: break-word; /* Ekledik */
-  white-space: normal; /* Ekledik */
+  text-align: center; 
+  transition: transform 0.3s ease-in-out;
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+  white-space: normal; 
 }
 
 .skill-box img {

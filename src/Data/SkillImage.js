@@ -73,12 +73,15 @@ import webix from '../assets/skills/webix.svg';
 import wolframalpha from '../assets/skills/wolframalpha.svg';
 import wordpress from '../assets/skills/wordpress.svg';
 import netframework from '../assets/skills/netframework.png';
-
+import shell from '../assets/skills/shell.png';
+import game from '../assets/skills/game.png';
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
-      case '.net':
+      case 'game':
+        return game;
+      case '.net framework':
         return netframework;
       case 'adobe audition':
         return adobeaudition;
@@ -200,6 +203,8 @@ export const skillsImage = (skill) => {
         return ruby;
       case 'selenium':
         return selenium;
+      case 'shell':
+        return shell;
       case 'sketch':
         return sketch;
       case 'strapi':

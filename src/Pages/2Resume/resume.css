@@ -24,27 +24,63 @@
     position: relative;
 }
 
+.spacer {
+    margin-bottom: 30px;
+}
+
+.icon-box {
+    background-color: red;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    border: 2px solid var(--vegas-gold);
+    font-size: 18px;
+    position: relative;
+    background: var(--border-gradient-onyx);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange-yellow-crayola);
+    box-shadow: var(--shadow-1);
+    z-index: 1;
+}
+
+/* .icon-box::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--vegas-gold);
+    inset: 1px;
+    background: var(--eerie-black-1);
+    border-radius: inherit;
+    z-index: -1;
+  } */
+
 .item-header {
     padding-left: 10px;
     display: flex;
-    gap: 30px; /* Fotoğraf ve bilgi grubu arasındaki boşluk */
+    gap: 30px;
+    /* Fotoğraf ve bilgi grubu arasındaki boşluk */
     margin-bottom: 10px;
-  }
+}
 
-  .item-image {
-    width: 70px; /* Fotoğrafın genişliği */
-    height: 70px; /* Fotoğrafın yüksekliği */
-    object-fit: cover; /* Fotoğrafın içeriğini kutuya sığdır */
-    border-radius: 10px; /* Köşeleri yuvarlatma */
-  }
-  .item-info {
+.item-image {
+    background-color: white;
+    border: 4px solid var(--vegas-gold);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.item-info {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Grupların dikeyde ortalanması */
-  }
-.timeline-item:not(:last-child) {
-    margin-bottom: 20px;
+    justify-content: center;
+    /* Grupların dikeyde ortalanması */
 }
+
 
 .timeline-item-title {
     font-size: var(--fs-6);
@@ -113,4 +149,21 @@
     .timeline-text {
         max-width: 700px;
     }
+}
+
+.timeline-list {
+    display: none;
+    /* Başlangıçta gizli */
+    font-size: var(--fs-6);
+    margin-left: 45px;
+}
+
+.timeline-list.open {
+    display: block;
+    /* Açıldığında görünür */
+}
+
+.title-wrapper {
+    cursor: pointer;
+    /* Tıklanabilir yapıldı */
 }

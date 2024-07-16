@@ -1,7 +1,7 @@
 import Minishell from '../assets/images/projects/minishell.png';
 import Library from '../assets/images/projects/kihmed.png';
 import Cub3d from '../assets/images/projects/cub3d.png';
-
+import Solong from '../assets/images/projects/solong.png';
 
 const project = [
     {
@@ -9,7 +9,7 @@ const project = [
       photo: Minishell,
       category: 'C',
       text: 'MiniShell, temel bash kabuğu komutlarını C dilinde yeniden uygulayan bir komut satırı arayüzüdür. Bu proje, Unix tabanlı işletim sistemlerinde kullanılan shell (kabuk) programlarının çalışma prensiplerini anlamak ve uygulamalı deneyim kazanmak amacıyla geliştirilmiştir.',
-      tech: ['C', 'Bash'],
+      tech: ['C', 'Shell'],
       property: ['Temel dosya ve dizin işlemleri (cd, ls, pwd, mkdir, rmdir, touch, rm vb.)',
         'Çocuk süreçlerin oluşturulması ve yönetimi (fork ve exec ile)',
         'Girdi ve çıktı yönlendirme (redirection)',
@@ -57,7 +57,26 @@ const project = [
       learn: [ '2D ve 3D matematiksel kavramların uygulamalı kullanımı', 
         'Oyun geliştirme süreçlerinde kullanılan temel algoritmalar ve veri yapıları hakkında derinlemesine anlayış', 
         'Grafik programlama ve görüntü işleme teknikleri konusunda ileri düzey bilgi ve deneyim']
-    }
+    },
+    {
+      name: 'SoLong',
+      photo: Solong,
+      category: 'C',
+      text: 'C dilinde yazdığım bu projede MiniLibX kütüphanesini kullanarak basit bir 2D oyun geliştirdim. Pacman benzeri bu oyunda verilen harita dosyasını okuduktan sonra çeşitli algoritmalar geliştirerek harita kontrolleri sağladım. MiniLibX kütüphanesi ile görsellerin işlenmesi ve pencere yönetimini sağladım',
+      tech: ['C', 'Game'],
+      property: ['Harita Okuma: Verilen harita dosyasını okuyarak oyun alanını oluşturma',
+        'Oyuncu Kontrolleri: Oyuncunun hareketini sağlayan kontrollerin geliştirilmesi',
+        'Harita Kontrolleri: Duvarlar, kapılar ve objelerin çarpışma kontrollerinin yapılması',
+        'Grafik İşleme: MiniLibX kütüphanesi ile görsellerin işlenmesi ve pencere yönetimi',
+      ],
+      date: '2023 Kasım',
+      link: 'https://github.com/erenakbas57/so_long',
+      learn: [
+        'Harita kontrollerini sağlamak için algoritma geliştirme ve uygulama yeteneklerinin geliştirilmesi',
+        'Grafik programlama ve görüntü işleme teknikleri konusunda bilgi ve deneyim',
+        'Performans optimizasyonu ve hata ayıklama yeteneklerinin geliştirilmesi',        
+      ]
+    },
 
   ]
 

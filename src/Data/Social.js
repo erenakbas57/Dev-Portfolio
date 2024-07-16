@@ -1,7 +1,6 @@
 import Github from '../assets/icons/GitHub.png';
 import Medium from '../assets/icons/Medium.png';
 import LinkedIn from '../assets/icons/Linkedin.png';
-import Phone from '../assets/icons/Phone.png';
 import Gmail from '../assets/icons/Gmail.png';
 import Instagram from '../assets/icons/Instagram.png';
 
