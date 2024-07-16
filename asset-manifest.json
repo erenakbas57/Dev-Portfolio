@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.228a7028.css",
-    "main.js": "/Portfolio/static/js/main.c7a9205a.js",
+    "main.js": "/Portfolio/static/js/main.1ee1965c.js",
     "static/media/python.png": "/Portfolio/static/media/python.88d760de81b70b09494c.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.d3fc415c42a0d23e656f.png",
     "static/media/Yapay_Zeka_ve_Algoritma.png": "/Portfolio/static/media/Yapay_Zeka_ve_Algoritma.81c93a97b296e74bdff5.png",
@@ -106,10 +106,10 @@
     "static/media/vuetifyjs.svg": "/Portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/Portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.228a7028.css.map": "/Portfolio/static/css/main.228a7028.css.map",
-    "main.c7a9205a.js.map": "/Portfolio/static/js/main.c7a9205a.js.map"
+    "main.1ee1965c.js.map": "/Portfolio/static/js/main.1ee1965c.js.map"
   },
   "entrypoints": [
     "static/css/main.228a7028.css",
-    "static/js/main.c7a9205a.js"
+    "static/js/main.1ee1965c.js"
   ]
 }
