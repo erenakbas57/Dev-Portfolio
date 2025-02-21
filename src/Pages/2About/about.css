@@ -1,0 +1,33 @@
+
+  
+  .new-project {
+    margin: 20px 0; /* Üst ve alt boşluk */
+    padding: 15px;
+    background-color: #909090; /* Proje bölümünün arka plan rengi */
+    border-radius: 8px; /* Köşeleri yuvarlama */
+    text-align: center; /* Metni ortalama */
+  }
+  
+  .new-project h3 {
+    margin-bottom: 10px; /* Alt boşluk */
+    font-size: 1.5em; /* Başlık boyutu */
+  }
+  
+  .project-link {
+    display: inline-block; /* Bağlantıyı buton gibi görünmesi için blok yapma */
+    padding: 10px 20px; /* İç boşluk */
+    background-color: #0070f3; /* Buton arka plan rengi */
+    color: white; /* Yazı rengi */
+    border-radius: 5px; /* Köşeleri yuvarlama */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    transition: background-color 0.3s; /* Geçiş efekti */
+  }
+  
+  .project-link:hover {
+    background-color: #005bb5; /* Hover durumunda renk değişimi */
+  }
+  
+  .service-title, .skills-title {
+    margin-top: 30px; /* Üst boşluk */
+  }
+  

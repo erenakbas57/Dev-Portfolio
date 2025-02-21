@@ -17,7 +17,7 @@ const experience = [
       year: '2023 Ağustos - 2023 Eylül',
       description:
         'Yaptığım stajda şirketin farklı departmanları ile toplantılara girip departmanların işleyişi, birbirleri ile olan ilişkileri hakkında bilgi sahibi oldum.'
-    }
+    },
   ]
 
   export default experience;

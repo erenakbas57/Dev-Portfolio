@@ -58,21 +58,22 @@ function Projects() {
             className="projects-item"
             onClick={() => openModal(project)}
           >
-              <figure className="projects-avatar-box">
-                {project.tech.map((iconName, index) => (
-                  <img src={skillsImage(iconName)} alt={project} key={index} />
-                ))}
-  {/* {project.tech.map((iconName, index) => (
-    <img key={index} src={icons[iconName]} alt={iconName} />
-  ))} */}
-              </figure>
-              <h4 className="projects-item-title">{project.name}</h4>
-              <div className="projects-text">
-                <p>{project.text}</p>
-              </div>
-              <div className="project-detail-info">
-                <p>Detaylar ve uygulama bağlantısı için tıklayın</p>
-              </div>
+            <figure className="projects-avatar-box">
+              {project.tech.map((iconName, index) => (
+                <div className="tech-item" key={index}>
+                  <img src={skillsImage(iconName)} alt={iconName} />
+                  <p className="icon-title">{iconName}</p>
+                </div>
+              ))}
+            </figure>
+
+            <h4 className="projects-item-title">{project.name}</h4>
+            <div className="projects-text">
+              <p>{project.text}</p>
+            </div>
+            <div className="project-detail-info">
+              <p>Detaylar ve uygulama bağlantısı için tıklayın</p>
+            </div>
           </li>
         ))}
       </ul>

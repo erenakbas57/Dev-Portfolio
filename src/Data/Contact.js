@@ -22,7 +22,7 @@ const contact = [
     },
     {
       title: 'Askerlik',
-      value: 'Kasım 2025',
+      value: 'Muaf',
       icon: <GiPistolGun size={25}/>
     }
   ];

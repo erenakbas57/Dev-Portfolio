@@ -7,6 +7,10 @@
   gap: 20px;
 }
 
+.icon-title {
+    color:white;
+    margin:3px;
+}
 .projects-item {
     padding:20px;
     display: flex;

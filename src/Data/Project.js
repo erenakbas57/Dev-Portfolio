@@ -4,7 +4,53 @@ import Cub3d from '../assets/images/projects/cub3d.png';
 import Solong from '../assets/images/projects/solong.png';
 
 const project = [
+  {
+    name: 'Ping Pong Game',
+    photo: Minishell,
+    category: 'python',
+    text: 'Okulumun son projesi olarak yaptığım bu projede Python ve Django kullanarak bir web tabanlı ping-pong oyunu geliştirdim. Bu proje, kullanıcıların ister normal şekilde kayıt olup ya da 42API ile giriş yaparak birbirleriyle ping-pong ve taş-kağıt-makas oynayabileceği ve arkadaşlık ilişkileri kurabileceği bir platform sundum. Yapay zekaya karşı oynanan oyunlarda istatistik tutularak kullanıcıların oyun geçmişi ve oyun istatistiklerine grafiksel olarak yer verildi. ',
+    tech: ['python', 'django', 'bootstrap', 'html', 'css', 'javascript', 'postgresql', 'docker'],
+    property: [ 'Giriş & Kayıt: Giriş ve kayıt olma yönetimi ve 42API ile entegrasyon',
+      'Profil Yönetimi: Kullanıcı profili oluşturma, güncelleme işlemleri',
+      'Oyun Oynama: Ping-Pong ve klasik taş-kâğıt-makas oyununun Matrix temalı versiyonu',
+      'Arkadaşlık Sistemi: Başka oyuncuları takip edip detaylı istatistiklerini görme',
+      'Oyuncu Arama: Kullanıcı adı, email ya da adla oyuncu arama ve takip etme',
+      'Tasarım: Bootstrap ve CSS ile modern ve kullanıcı dostu UI/UX tasarımı',
+      'SPA yapı: Vanilla JavaScript ile sağlanan SPA yapı ile daha hızlı bir kullanıcı deneyimi',
+    ],
+    date: '2024 Aralık',
+    link: 'https://github.com/erenakbas57/ft_transcendence',
+    learn: [ 'Web tabanlı uygulama geliştirme süreçlerinde ileri düzeyde bilgi ve tecrübe', 
+      'Django ve Django REST Framework kullanarak web uygulamaları geliştirme', 
+      'Docker ve Postgresql kullanarak uygulama dağıtımı ve veritabanı yönetimi', 
+      'Frontend ve Backend teknolojileri ile entegrasyon ve veri akışı yönetimi',
+      'Kullanıcı deneyimi (UX) ve kullanıcı arayüzü (UI) tasarımı konularında pratik deneyim',
+      'Vanilla JavaScript ile SPA yapıları geliştirme ve uygulama performansını arttırma']
+  },
     {
+    name: 'Yapay Zeka Araçları',
+    photo: '/path/to/your/image.jpg', // Buraya proje ile ilgili görselin yolunu ekleyin
+    category: 'Web Geliştirme',
+    text: ' https://ai-archive.vercel.app :  “Yapay Zeka Araçları” adlı projem, kullanıcıların farklı yapay zeka sitelerini keşfedebileceği bir platform sunuyor. Bu site, kullanıcıların en güncel ve faydalı yapay zeka araçlarına erişimini kolaylaştırmayı hedefliyor.',
+    tech: ['Next js', 'TypeScript', 'tailwind', 'shadcnui', 'mongodb', 'prisma', 'Zustand'],
+    property: [
+      'Kullanıcıların farklı yapay zeka sitelerini keşfedebilmesi',
+      'Modern ve duyarlı tasarım',
+      'Veritabanı yönetimi için MongoDB ve Prisma kullanımı',
+      'Durum yönetimi için Zustand entegrasyonu',
+      'Kullanıcı dostu arayüz bileşenleri ile etkileşimli deneyim',
+    ],
+    date: '2025 Şubat',
+    link: 'https://github.com/Ai-Archive', // Buraya projenizin GitHub linkini ekleyin
+    learn: [
+      'Next.js ile dinamik web uygulamaları geliştirme',
+      'TypeScript ile daha güvenli ve hatasız kod yazma',
+      'TailwindCSS ile modern ve duyarlı tasarım uygulama',
+      'MongoDB ve Prisma ile veritabanı yönetimi konularında tecrübe',
+      'Zustand ile etkili durum yönetimi gerçekleştirme',
+    ]
+  },
+  {
       name: 'MiniShell',
       photo: Minishell,
       category: 'C',

@@ -75,10 +75,19 @@ import wordpress from '../assets/skills/wordpress.svg';
 import netframework from '../assets/skills/netframework.png';
 import shell from '../assets/skills/shell.png';
 import game from '../assets/skills/game.png';
+import shadcn from '../assets/skills/shadcn.png';
+import prisma from '../assets/skills/prisma.png';
+import zustand from '../assets/skills/zustand.jpg';
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+      case 'zustand':
+        return zustand;
+      case 'shadcnui':
+        return shadcn;
+      case 'prisma':
+        return prisma;
       case 'game':
         return game;
       case '.net framework':

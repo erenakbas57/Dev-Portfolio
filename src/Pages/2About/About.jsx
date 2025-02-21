@@ -1,11 +1,9 @@
 // About.js
+import "./about.css";
 import React from "react";
 import Service from "./1Service";
 import Text from "./1Text";
-// import Skill from "../2About/1Skill";
-
 import SkillsCarousel from "../2About/1Skill";
-
 import text from "../../Data/Text";
 import service from "../../Data/Service";
 
@@ -15,6 +13,12 @@ function About() {
       <header>
         <h2 className="h2 article-title">Hakkımda</h2>
       </header>
+      <div className="new-project">
+        <h3>Yeni Projem: "Yapay Zeka Araçları"</h3>
+        <a href="https://ai-archive.vercel.app" rel="noreferrer" target="_blank" className="project-link">
+          Siteye Git
+        </a>
+      </div>
       <section className="about-text">
         {text.map((item, index) => (
           <Text key={index} item={item} />
