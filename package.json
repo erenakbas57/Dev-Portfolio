@@ -2,7 +2,6 @@
   "name": "developer-portfolio",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://erenakbas57.github.io/Dev-Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -15,7 +14,6 @@
     "bootstrap": "^4.6.2",
     "clipboard": "^2.0.11",
     "ionicons": "^7.4.0",
-    "next": "^14.2.4",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-copy-to-clipboard": "^5.1.0",
@@ -29,8 +27,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,8 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
