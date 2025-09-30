@@ -1,4 +1,4 @@
-import badi from '../assets/career/badib.png';
+import badi from '../assets/career/badi.png';
 import flo from '../assets/career/flo.png';
 
 const experience = [
